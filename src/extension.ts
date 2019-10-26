@@ -40,7 +40,7 @@ export function activate(context: vscode.ExtensionContext) {
 		const implementionFile = getRenderedImplementionFile(capitalCase, colonCaseName, snakeCaseName, description);
 
 		const writeResult: Promise<string|void> = new Promise((resolve, reject) => {
-			writeFile(join(path, snakeCaseName + '.cpp'), definitionFile, (err) => {
+			writeFile(join(path, snakeCaseName + '.h'), definitionFile, (err) => {
 				if (err) {
 					reject('Could not create cpp definition file.');
 				}
@@ -48,7 +48,7 @@ export function activate(context: vscode.ExtensionContext) {
 				resolve();
 			});
 
-			writeFile(join(path, snakeCaseName + '.h'), implementionFile, (err) => {
+			writeFile(join(path, snakeCaseName + '.cpp'), implementionFile, (err) => {
 				if (err) {
 					reject('Could not create cpp implemention file.');
 				}
