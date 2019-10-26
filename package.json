@@ -1,8 +1,8 @@
 {
-	"name": "command-generator",
-	"displayName": "command-generator",
+	"name": "cpp-command-generator",
+	"displayName": "cpp-command-generator",
 	"description": "An helper for generating commands",
-	"version": "0.0.1",
+	"version": "1.0.0",
 	"engines": {
 		"vscode": "^1.39.0"
 	},
