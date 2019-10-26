@@ -1,5 +1,5 @@
 import * as vscode from 'vscode';
-import { writeFile, write } from 'fs';
+import { writeFile } from 'fs';
 import { join } from 'path';
 
 
