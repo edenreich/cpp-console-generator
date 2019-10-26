@@ -1,0 +1,18 @@
+#include <console/application.h>
+
+
+int main(int argc, char * argv[])
+{
+    Console::Application app(argc, argv);
+
+    app.setApplicationName("__APPLICATION_NAME__");
+    app.setApplicationUsage("__APPLICATION_BINARY_NAME__ <command> [options]");
+    app.setApplicationVersion("1.0");
+    app.setAutoPrintHelp(true);
+
+    app.setApplicationDescription("__APPLICATION_DESCRIPTION__");
+
+    // app.addCommand(new ExampleCommand);
+
+    return app.run();
+}
