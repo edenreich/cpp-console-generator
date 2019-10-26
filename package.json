@@ -18,6 +18,10 @@
 			{
 				"command": "extension.makeCommand",
 				"title": "cpp: generate a new command"
+			},
+			{
+				"command": "extension.makeProject",
+				"title": "cpp: generate a new console project"
 			}
 		]
 	},

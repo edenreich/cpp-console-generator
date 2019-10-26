@@ -1,0 +1,53 @@
+#include "__SNAKE_CASE_NAME__.h"
+
+
+/**
+ * Retrieve the name of the command.
+ *
+ * @return std::string
+ */
+std::string __CAPITAL_CASE_NAME__::getName()
+{
+    return "__COLON_CASE_NAME__";
+}
+
+/**
+ * Retrieve the description of the command.
+ *
+ * @return std::string
+ */
+std::string __CAPITAL_CASE_NAME__::getDescription()
+{
+    return "__DESCRIPTION__";
+}
+
+/**
+ * Retrieve the command options.
+ *
+ * @return Types::AvailableOptions
+ */
+Types::AvailableOptions __CAPITAL_CASE_NAME__::getOptions()
+{
+    Types::AvailableOptions options;
+
+    return options;
+}
+
+/**
+ * Handle the command.
+ *
+ * @param InputInterface * input
+ * @param OutputInterface * output
+ * @return ExitCode
+ */
+ExitCode __CAPITAL_CASE_NAME__::handle(Interfaces::InputInterface * input, Interfaces::OutputInterface * output)
+{
+    if (input->wantsHelp()) {
+        output->printCommandHelp(this);
+        return ExitCode::NeedHelp;
+    }
+
+	// Implement something
+
+    return ExitCode::Ok;
+}
