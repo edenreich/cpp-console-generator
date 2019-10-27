@@ -47,8 +47,8 @@ export class Handlers {
         const snakeCaseName: string = name.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`).slice(1);
         const colonCaseName: string = name.replace(/[A-Z]/g, letter => `:${letter.toLowerCase()}`).slice(1);
 
-        let definitionFile: string = readFileSync(resolve(__dirname, '..', 'src', 'templates', 'commands', 'command_definition.h.stub'), { encoding: 'utf8' });
-        let implementionFile: string = readFileSync(resolve(__dirname,  '..', 'src', 'templates', 'commands', 'command_implemention.cpp.stub'), { encoding: 'utf8' });
+        let definitionFile: string = readFileSync(resolve(__dirname, 'templates', 'commands', 'command_definition.h.stub'), { encoding: 'utf8' });
+        let implementionFile: string = readFileSync(resolve(__dirname, 'templates', 'commands', 'command_implemention.cpp.stub'), { encoding: 'utf8' });
 
         definitionFile = replaceAll(definitionFile, {
             __COLON_CASE_NAME__: colonCaseName,
@@ -97,7 +97,7 @@ export class Handlers {
      */
     public static async makeProject(): Promise<void> {
 
-        const templatePath: string = resolve(__dirname, '..', 'src', 'templates', 'project');
+        const templatePath: string = resolve(__dirname, 'templates', 'project');
         const projectPath: string | undefined = workspace.rootPath;
 
         if (!projectPath) {
