@@ -2,8 +2,8 @@
 	"name": "cpp-console-generator",
 	"publisher": "edenreich",
 	"displayName": "cpp-console-generator",
-	"description": "An helper for generating commands",
-	"version": "1.0.0",
+	"description": "An extension for generating a console project and commands quickly",
+	"version": "1.0.1",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/edenreich/console-ext-vscode"
