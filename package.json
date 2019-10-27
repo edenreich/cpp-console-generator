@@ -4,7 +4,10 @@
 	"displayName": "cpp-command-generator",
 	"description": "An helper for generating commands",
 	"version": "1.0.0",
-	"repository": "https://github.com/edenreich/console-ext-vscode",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/edenreich/console-ext-vscode"
+	},
 	"icon": "images/cpp.png",
 	"keywords": [
 		"cpp",
