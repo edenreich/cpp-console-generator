@@ -1,6 +1,6 @@
 {
 	"name": "cpp-command-generator",
-	"publisher": "eden-reich",
+	"publisher": "edenreich",
 	"displayName": "cpp-command-generator",
 	"description": "An helper for generating commands",
 	"version": "1.0.0",
@@ -11,6 +11,10 @@
 		"console",
 		"console-component"
 	],
+	"author": {
+		"name": "Eden Reich",
+		"email": "eden.reich@gmail.com"
+	},
 	"engines": {
 		"vscode": "^1.39.0"
 	},
