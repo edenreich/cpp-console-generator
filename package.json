@@ -6,7 +6,7 @@
 	"version": "1.0.1",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/edenreich/console-ext-vscode"
+		"url": "https://github.com/edenreich/console-generator-ext-vscode"
 	},
 	"icon": "images/cpp.png",
 	"keywords": [
