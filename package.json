@@ -41,7 +41,8 @@
 		]
 	},
 	"scripts": {
-		"vscode:prepublish": "npm run compile && npm run install",
+		"vscode:prepublish": "npm run clean && npm run compile && npm run install",
+		"clean": "rm -rf out/*",
 		"compile": "tsc -p ./",
 		"install": "cp -R src/templates out/templates",
 		"watch": "tsc -watch -p ./"
