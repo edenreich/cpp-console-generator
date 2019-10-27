@@ -1,7 +1,7 @@
 {
-	"name": "cpp-command-generator",
+	"name": "cpp-console-generator",
 	"publisher": "edenreich",
-	"displayName": "cpp-command-generator",
+	"displayName": "cpp-console-generator",
 	"description": "An helper for generating commands",
 	"version": "1.0.0",
 	"repository": {
