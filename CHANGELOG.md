@@ -1,9 +1,33 @@
-# Change Log
+# Release Notes
 
-All notable changes to the "command-generator" extension will be documented in this file.
+## [Unreleased](https://github.com/edenreich/console-component/compare/v1.0.7...master)
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [v1.0.5 (2019-010-27)](https://github.com/edenreich/console-component/compare/v1.0.5...v1.0.6)
 
-## [Unreleased]
+### Added
+- None
 
-- Initial release
+### Changed
+- Changed the version of the console-component project in the cmake file
+
+### Removed
+- None
+
+### Fixed
+- None
+
+
+## [v1.0.5 (2019-010-27)](https://github.com/edenreich/console-component/compare/v1.0.5...v1.0.5)
+
+### Added
+- None
+
+### Changed
+- None
+
+### Removed
+- None
+
+### Fixed
+- None
+
